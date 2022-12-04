@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "goit-web-unit6-asyncio-folder-sorter"
+version = "0.1.0"
+description = ""
+authors = ["Andrii Bobanych <andrii.bobanych@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_web_unit6_asyncio_folder_sorter"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiopath = "^0.6.11"
+aioshutil = "^1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
